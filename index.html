@@ -5,7 +5,8 @@
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Source+Code+Pro:ital,wght@0,500;0,700;1,200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Source+Code+Pro:ital,wght@0,500;0,700;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
     <title>idk</title>
 </head>
 <body>
@@ -14,18 +15,79 @@
             <nav>
                 <img src="assets/logo.png" class="logo">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#"><i class="fa-solid fa-greater-than"></i> Home</a></li>
+                    <li><a href="#"><i class="fa-solid fa-greater-than"></i> About</a></li>
+                    <li><a href="#"><i class="fa-solid fa-greater-than"></i> Services</a></li>
+                    <li><a href="#"><i class="fa-solid fa-greater-than"></i> Portfolio</a></li>
+                    <li><a href="#"><i class="fa-solid fa-greater-than"></i> Contact</a></li>
                 </ul>
             </nav>
             <div class="header-text">
                 <p>Web Developer</p>
-                <h1>Hi, I'm <span>Kaedehara Kazuha</span><br>From Inazuma</h1>
+                <h1>Hi, I'm <span class="name">Kaedehara Kazuha</span><br>From <span class="region">Inazuma</span></h1>
             </div>
         </div>
     </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="assets/about.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Kaedehara Kazuha (Japanese: 楓かえで原はら万かず葉は Kaedehara Kazuha) 
+                        is a playable Anemo character in Genshin Impact. A wandering samurai of the once-famed Kaedehara 
+                        Clan with an ability to read the sounds of nature, Kazuha is a temporary crewmember of The Crux. 
+                        Despite being burdened by the many happenings of his past, Kazuha still maintains an easygoing disposition.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Skill 1</span><br>Skill Description 1</li>
+                                <li><span>Skill 2</span><br>Skill Description 2</li>
+                                <li><span>Skill 3</span><br>Skill Description 3</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2010 - 2011</span><br>Experience Description 1</li>
+                                <li><span>2014 - 2016</span><br>Experience Description 2</li>
+                                <li><span>2020 - 2023</span><br>Experience Description 3</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2005</span><br>Education Description 1</li>
+                                <li><span>2008</span><br>Education Description 1</li>
+                                <li><span>2009</span><br>Education Description 1</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for (tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+
 </body>
 </html>
