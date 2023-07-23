@@ -336,7 +336,7 @@ text-align: right;
 }
 .audios{
     display: flex;
-    flex-basis: 48%;
+    flex-basis: 40%;
     flex-wrap: wrap;
     gap: 2em;
     
@@ -350,7 +350,7 @@ text-align: right;
     border-radius: 10px;
 }
 .pictures{
-    flex-basis: 47%;
+    flex-basis: 55%;
     display: flex;
     flex-wrap: wrap;
     gap: 2em;
