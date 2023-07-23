@@ -380,13 +380,13 @@ text-align: right;
 .sample-desc{
     padding-bottom: 0%;
 }
-.sample-pics img{
+.pictures img{
     width: 355px;
     border-radius: 10px;
     opacity: calc(0.3);
     transition: 0.2s;
 }
-.sample-pics img:hover{
+.pictures img:hover{
     opacity: calc(1);
     transform: translateY(-40px) rotateZ(-3deg);
 }
