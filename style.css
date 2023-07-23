@@ -380,13 +380,17 @@ text-align: right;
 .sample-desc{
     padding-bottom: 0%;
 }
-.pictures img{
+.sample-pics{
+    display: flex;
+    gap: 2em;
+}
+.sample-pics img{
     width: 355px;
     border-radius: 10px;
     opacity: calc(0.3);
     transition: 0.2s;
 }
-.pictures img:hover{
+.sample-pics img:hover{
     opacity: calc(1);
     transform: translateY(-40px) rotateZ(-3deg);
 }
