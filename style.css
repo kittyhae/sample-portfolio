@@ -381,7 +381,7 @@ text-align: right;
     padding-bottom: 0%;
 }
 .sample-pics img{
-    width: 350px;
+    width: 355px;
     border-radius: 10px;
     opacity: calc(0.3);
     transition: 0.2s;
@@ -395,7 +395,4 @@ text-align: right;
 /* css for contact */
 .contact .container{
     margin-top: 80px;
-}
-.contact div{
-    display:flex;
 }
