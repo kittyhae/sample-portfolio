@@ -222,7 +222,7 @@ text-align: right;
     background-color: #ffffff0c;
     border-radius: 7px;
     gap: 10px;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 .hobby:hover{
     background-color: #ffffff1f;
@@ -301,7 +301,7 @@ text-align: right;
     background-color: #ffffff0c;
     padding: 30px;
     border-radius: 10px;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 .each-service i{
     font-size: 60px;
@@ -324,7 +324,7 @@ text-align: right;
 
 /* css for portfolio */
 .portfolio .container{
-    margin-top: 50px;
+    margin-top: 20px;
 }
 .portfolio{
     padding: 8px 0;
@@ -348,6 +348,11 @@ text-align: right;
     align-items: center;
     justify-content:flex-start;
     border-radius: 10px;
+    transition:0.2s;
+}
+.hero:hover{
+    background: #329470;
+    transform: scale(0.98);
 }
 .pictures{
     flex-basis: 55%;
