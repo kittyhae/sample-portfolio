@@ -396,3 +396,6 @@ text-align: right;
 .contact .container{
     margin-top: 80px;
 }
+.contact div{
+    display:flex;
+}
