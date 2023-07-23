@@ -6,7 +6,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Source+Code+Pro:ital,wght@0,500;0,700;1,200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" 
+    integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/6cc0baed30.js" crossorigin="anonymous"></script>
     <script src="index.js"></script>
     <title>Kazuha</title>
@@ -17,11 +18,11 @@
             <nav>
                 <img src="assets/logo.png" class="logo">
                 <ul>
-                    <li><a href="#"><i class="fa-solid fa-angle-right"></i> Home</a></li>
+                    <li><a href="#home"><i class="fa-solid fa-angle-right"></i> Home</a></li>
                     <li><a href="#about"><i class="fa-solid fa-angle-right"></i> About</a></li>
-                    <li><a href="#"><i class="fa-solid fa-angle-right"></i> Services</a></li>
-                    <li><a href="#"><i class="fa-solid fa-angle-right"></i> Portfolio</a></li>
-                    <li><a href="#"><i class="fa-solid fa-angle-right"></i> Contact</a></li>
+                    <li><a href="#services"><i class="fa-solid fa-angle-right"></i> Services</a></li>
+                    <li><a href="#portfolio"><i class="fa-solid fa-angle-right"></i> Portfolio</a></li>
+                    <li><a href="#contact"><i class="fa-solid fa-angle-right"></i> Contact</a></li>
                 </ul>
             </nav>
             <div class="header-text">
@@ -162,11 +163,183 @@
                                 </h3>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <h3 class="with-line">WHAT I OFFER</h3>
+            <div class="services-list">
+                <div class="each-service">
+                    <i class="fa-brands fa-soundcloud"></i>
+                    <h2>Music Production</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit quam vel ex 
+                        vulputate, eget gravida lorem varius. Integer id ligula eu ex efficitur consectetur. 
+                        Praesent venenatis lorem vel nisi luctus bibendum. Nullam a mi mi. Suspendisse potenti. 
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="each-service">
+                    <i class="fa-brands fa-html5"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit quam vel ex 
+                        vulputate, eget gravida lorem varius. Integer id ligula eu ex efficitur consectetur. 
+                        Praesent venenatis lorem vel nisi luctus bibendum. Nullam a mi mi. Suspendisse potenti. 
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="each-service">
+                    <i class="fa-brands fa-discord"></i>
+                    <h2>Discord Bot Development</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit quam vel ex 
+                        vulputate, eget gravida lorem varius. Integer id ligula eu ex efficitur consectetur. 
+                        Praesent venenatis lorem vel nisi luctus bibendum. Nullam a mi mi. Suspendisse potenti. 
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="each-service">
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>Graphic Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit quam vel ex 
+                        vulputate, eget gravida lorem varius. Integer id ligula eu ex efficitur consectetur. 
+                        Praesent venenatis lorem vel nisi luctus bibendum. Nullam a mi mi. Suspendisse potenti. 
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Portfolio</h1>
+            <h3 class="with-line">MY WORKS</h3>
+            <div class="works">
+                <div class="audios">
+                    <div class="hero">
+                        <div class="music">
+                            <p>Artist: Hoyoverse</p>
+                            <h1>Lotus of Haftkarsvar</h1>
+                            <div class="track">
+                                <i class="fa-solid fa-leaf" id="playbtn1"></i>
+                                <div id="waveform1"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hero">
+                        <div class="music">
+                            <p>Artist: Hoyoverse</p>
+                            <h1>Caprice of the Leaves</h1>
+                            <div class="track">
+                                <i class="fa-solid fa-leaf" id="playbtn2"></i>
+                                <div id="waveform2"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hero">
+                        <div class="music">
+                            <p>Artist: Hoyoverse</p>
+                            <h1>Nephrite of Deshret</h1>
+                            <div class="track">
+                                <i class="fa-solid fa-leaf" id="playbtn3"></i>
+                                <div id="waveform3"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="pictures">
+                    <div class="sample-pics"><img src="assets/sample1.jpg" alt=""></div>
+                    <div class="sample-pics"><img src="assets/sample2.jpg" alt=""></div>
+                    <p class="sample-desc">Here's all my works." With those words, the artist proudly unveiled a mesmerizing collection 
+                        of creativity and passion. Each piece seemed to bear a unique soul, a reflection of the artist's 
+                        journey through life and imagination. Bold strokes and vibrant colors adorned the canvases, 
+                        capturing the essence of nature's beauty, the raw emotions of human existence, and the surreal 
+                        visions of dreams. The sculptures stood as testaments to the artist's mastery of form, effortlessly 
+                        transforming ordinary materials into breathtaking sculptures that seemed to transcend reality. 
+                        The words penned on paper resonated with profound thoughts, poetic verses, and tales of wonder, 
+                        weaving a tapestry of words that held the power to move hearts and minds. This display of artistic 
+                        prowess was not just a mere exhibition but a glimpse into the artist's soul, a testament to their 
+                        unwavering dedication to their craft. The onlookers stood in awe, immersed in the artist's world, 
+                        where creativity knew no bounds, and inspiration bloomed with every stroke, chisel, and written word.</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h1 class="sub-title">Contact</h1>
+            <h3 class="with-line">LETS WORK TOGETHER!</h3>
+        </div>
+    </section>
+
+    <script type="module">
+        import WaveSurfer from 'https://unpkg.com/wavesurfer.js@7/dist/wavesurfer.esm.js'
+        
+        var playBtn1 = document.getElementById("playbtn1");
+        var playBtn2 = document.getElementById("playbtn2");
+        var playBtn3 = document.getElementById("playbtn3");
+
+        const wavesurfer1 = WaveSurfer.create({
+          container: '#waveform1',
+          waveColor: '#fff',
+          progressColor: '#490c0c',
+          url: 'assets/Lotus of Haftkarsvar.mp3',
+          barWidth: 4,
+          responsive: true,
+          height: 90,
+          barRadius: 4,
+        })
+
+        const wavesurfer2 = WaveSurfer.create({
+          container: '#waveform2',
+          waveColor: '#fff',
+          progressColor: '#490c0c',
+          url: 'assets/Caprice of the Leaves.mp3',
+          barWidth: 4,
+          responsive: true,
+          height: 90,
+          barRadius: 4,
+        })
+
+        const wavesurfer3 = WaveSurfer.create({
+          container: '#waveform3',
+          waveColor: '#fff',
+          progressColor: '#490c0c',
+          url: 'assets/Nephrite of Deshret.mp3',
+          barWidth: 4,
+          responsive: true,
+          height: 90,
+          barRadius: 4,
+        })
+        
+        wavesurfer1.on('interaction', () => {
+          wavesurfer.play()
+        })
+        wavesurfer2.on('interaction', () => {
+          wavesurfer.play()
+        })
+        wavesurfer3.on('interaction', () => {
+          wavesurfer.play()
+        })
+
+        playBtn1.onclick = function(){
+            wavesurfer1.playPause();
+        }
+        playBtn2.onclick = function(){
+            wavesurfer2.playPause();
+        }
+        playBtn3.onclick = function(){
+            wavesurfer3.playPause();
+        }
+    </script>
 </body>
 </html>

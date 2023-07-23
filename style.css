@@ -284,3 +284,115 @@ text-align: right;
 .stars{
     text-align: right;
 }
+
+
+/* css for services */
+.services{
+    padding:30px 0;
+}
+.services-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 20px 0;
+}
+.each-service{
+    width: 48%;
+    background-color: #ffffff0c;
+    padding: 30px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.each-service i{
+    font-size: 60px;
+}
+.each-service a{
+    text-decoration: none;
+    color:#3eb489;
+}
+.each-service h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.each-service p{
+    margin-bottom: 20px;
+}
+.each-service:hover{
+    background-color: #490c0c;
+    transform: translateY(-10px);
+}
+
+/* css for portfolio */
+.portfolio .container{
+    margin-top: 50px;
+}
+.portfolio{
+    padding: 8px 0;
+}
+.works{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.audios{
+    display: flex;
+    flex-basis: 48%;
+    flex-wrap: wrap;
+    gap: 2em;
+    
+}
+.hero{
+    width: 100%;
+    background: #3eb489;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    border-radius: 10px;
+}
+.pictures{
+    flex-basis: 47%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+.music{
+    width: 100%;
+    max-width: 900px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(red, 0, 0, 0.4);
+    background: fff;
+    border-radius: 8px;;
+}
+.track{
+    display:flex;
+    align-items:center;
+    margin-top: 20px;
+}
+.track i{
+    font-size: 60px;
+    margin-right: 30px;
+    cursor: pointer;
+    color: #001d12;
+}
+.track div{
+    flex: 1;
+}
+.sample-desc{
+    padding-bottom: 0%;
+}
+.sample-pics img{
+    width: 380px;
+    border-radius: 10px;
+    opacity: calc(0.3);
+    transition: 0.2s;
+}
+.sample-pics img:hover{
+    opacity: calc(1);
+    transform: translateY(-40px) rotateZ(-3deg);
+}
+
+
+/* css for contact */
+.contact .container{
+    margin-top: 80px;
+}
