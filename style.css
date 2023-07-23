@@ -381,7 +381,7 @@ text-align: right;
     padding-bottom: 0%;
 }
 .sample-pics img{
-    width: 380px;
+    width: 370px;
     border-radius: 10px;
     opacity: calc(0.3);
     transition: 0.2s;
