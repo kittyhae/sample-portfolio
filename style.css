@@ -405,3 +405,136 @@ text-align: right;
 .contact .container{
     margin-top: 80px;
 }
+.contact-row{
+    margin-top: 50px;
+    display: flex;
+    gap: 5em;
+}
+.contact-col-1{
+    flex-basis: 47%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2em;
+}
+.contact-col-2{
+    flex-basis: 48%;
+}
+.contact-col-1 .chibi{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.contact-col-1 img{
+    width: 30%;
+}
+.socmed{
+    padding: 10px;
+    background: #ffffff0c;
+    width: 47.7%;
+    border-radius: 8px;
+    display: flex;
+    gap: 1.2em;
+    align-items: center;   
+    border-style: solid;
+    border-color: #001d1200;
+    border-width: 2px;
+    transition:0.3s;
+}
+.socmed:hover{
+    border-color: #3eb489;
+}
+.contact-links a{
+    text-decoration: none;
+    color: #fff;
+    transition:0.4s;
+}
+.contact-links a:hover{
+    color: #3eb489;
+}
+.clue{
+    font-size: 40px;
+    margin-left: 5px;
+}
+.chibi img{
+    transition: 0.4s;
+}
+.chibi img:hover{
+    animation: shake .8s ease-in;
+}
+@keyframes shake{
+    0%{
+        transform: translate(0) rotateZ(-3deg) scale(1.1);
+    }
+    20%{
+        transform: rotateZ(3deg);
+    }
+    40%{
+        transform: rotateZ(-3deg);
+    }
+    80%{
+        transform: translate(.8em);
+        transform: rotateZ(3deg);
+    }
+    10%{
+        transform: rotateZ(-3deg);
+    }
+    30%,
+    50%{
+        transform: translate(-.2em);
+    }
+    70%,
+    100%{
+        transform: translate(0);
+    }
+}
+
+.contact-col-2 form{
+    width: 100%;
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #bdffe7;
+    padding: 12px;
+    margin: 14px 0;
+    color: #001d12;
+    font-size: 15px;
+    border-radius: 10px;
+}
+::placeholder{
+    color:#001d1249;
+}
+.half-form{
+    width: 48.7%;
+}
+.half-form-email{
+    margin-right: 15px;
+}
+.button{
+    margin-right: 10px;
+    border-style: solid;
+    border-color: #3eb489;
+    border-width: 2px;
+    padding:10px;
+    font-size: 18px;
+    border-radius: 5px;
+    background:#001d12;
+    color: #fff;
+    transition: 0.3s;
+}
+.button:hover{
+    background: #3eb489;
+}
+.contact-col-2 form a{
+    text-decoration: none;
+    margin-left: 379.4px;
+}
+.copyright{
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background: #490c0c;
+}

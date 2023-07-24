@@ -13,7 +13,7 @@
     <title>Kazuha</title>
 </head>
 <body>
-    <section class="header">
+    <section class="header" id="home">
         <div class = "container">
             <nav>
                 <img src="assets/logo.png" class="logo">
@@ -277,8 +277,66 @@
         <div class="container">
             <h1 class="sub-title">Contact</h1>
             <h3 class="with-line">LETS WORK TOGETHER!</h3>
+            <div class="contact-row">
+                <div class="contact-col-1">
+                    <div class="chibi">
+                        <img src="assets/chibi.png" alt="">
+                    </div>
+                    
+                    <div class="socmed">
+                        <div class="clue"><i class="fa-solid fa-address-book"></i></div>
+                        <div>
+                            <h2>Address</h2>
+                            <p>Narukami Island, Inazuma</p>
+                        </div>
+                    </div>
+                    <div class="socmed">
+                        <div class="clue"><i class="fa-solid fa-envelope"></i></div>
+                        <div>
+                            <h2>Email</h2>
+                            <p>scarapogi@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="socmed">
+                        <div class="clue"><i class="fa-solid fa-link"></i></div>
+                        <div>
+                            <h2>Social Media</h2>
+                            <p class="contact-links">
+                                <a href=""><i class="fa-brands fa-facebook"></i></a>&nbsp;&nbsp;
+                                <a href=""><i class="fa-brands fa-instagram"></i></a>&nbsp;&nbsp;
+                                <a href=""><i class="fa-brands fa-twitter"></i></a>&nbsp;&nbsp;
+                                <a href=""><i class="fa-brands fa-linkedin"></i></a>&nbsp;&nbsp;
+                            </p>
+                        </div>
+                    </div>
+                    <div class="socmed">
+                        <div class="clue"><i class="fa-solid fa-phone"></i></div>
+                        <div>
+                            <h2>Phone Number</h2>
+                            <p>+63 123-456-7890</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-col-2">
+                    <form>
+                        <input type="text" name="Name" placeholder="Last Name, First Name" required>
+                        <input class="half-form half-form-email" type="email" name="Email" placeholder="E-mail Adress" required>
+                        <input class="half-form" type="text" name="Subject" placeholder="Subject">
+                        <textarea name="Message" rows="8" placeholder="Your Message"></textarea>
+                        <button class="button" type="submit">Submit</button>
+                        <button class="button" type="reset">Reset</button>
+                        <a href="assets/CS-Curriculum-NEW-2.pdf" download class="button">Download CV</a>
+                    </form>
+                </div>
+            </div>
         </div>
     </section>
+
+    <footer class="copyright">
+        <p>Copyright © Kaedehara Kazuha</p>
+    </footer>
+
+
 
     <script type="module">
         import WaveSurfer from 'https://unpkg.com/wavesurfer.js@7/dist/wavesurfer.esm.js'
